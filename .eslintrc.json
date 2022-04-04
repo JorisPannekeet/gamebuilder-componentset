@@ -1,0 +1,50 @@
+{
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended"],
+  "plugins": ["react", "react-hooks", "prettier"],
+  "env": {
+    "browser": true,
+    "jasmine": true
+  },
+  "rules": {
+    "jsx-a11y/media-has-caption": 0,
+    "react/destructuring-assignment": 0,
+    "react/display-name": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-no-useless-fragment": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "react/jsx-no-undef": [2, { "allowGlobals": true }],
+    "react/prefer-exact-props": 0,
+    "react/prop-types": 0,
+    "react-hooks/exhaustive-deps": 0,
+    "no-restricted-globals": 0,
+    "prettier/prettier": [
+      "error",
+      { "singleQuote": true, "trailingComma": "all" }
+    ]
+  },
+  "globals": {
+    "B": "readonly",
+    "classes": "readonly",
+    "children": "readonly",
+    "index": "readonly",
+    "parent": "readonly",
+    "options": "readonly",
+    "React": "readonly",
+    "state": "readonly",
+    "setState": "readonly",
+    "useCallback": "readonly",
+    "useEffect": "readonly",
+    "useLocation": "readonly",
+    "useReducer": "readonly",
+    "useRef": "readonly",
+    "useRouter": "readonly",
+    "useState": "readonly",
+    "useHistory": "readonly",
+    "useOptions": "readonly"
+  }
+}
